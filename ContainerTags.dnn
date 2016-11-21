@@ -1,0 +1,51 @@
+﻿<dotnetnuke type="Package" version="5.0">
+ <packages>
+    <package name="DNNspot.ContainerTags" type="SkinObject" version="0.0.1">
+      <friendlyName>DNNspot CONTAINERTAGS SkinObject</friendlyName>
+      <description>
+        <![CDATA[
+          Shows tags/taxonomy for the current module.  Include this SkinObject inside your CONTAINERS with:
+
+          &lt%@ Register TagPrefix="dnnspot" TagName="CONTAINERTAGS" Src="~/DesktopModules/DNNspot/Tags/ContainerTags.ascx" %&gt;
+
+          and
+
+          &lt;dnnspot:CONTAINERTAGS runat="server" /&gt;        
+        ]]>
+      </description>
+      <owner>
+        <name>Web Ascender</name>
+        <organization>Web Ascender</organization>
+        <url>http://www.webascender.com</url>
+        <email>web@webascender.com</email>
+      </owner>
+      <license />
+      <releaseNotes />
+      <components>
+        <component type="SkinObject">
+          <moduleControl>
+            <controlKey>CONTAINERTAGS</controlKey>
+            <controlSrc>/DesktopModules/DNNspot/Tags/ContainerTags.ascx</controlSrc>
+            <supportsPartialRendering>False</supportsPartialRendering>
+          </moduleControl>
+        </component>
+        <component type="Assembly">
+          <assemblies>
+            <assembly>
+              <path>bin</path>
+              <name>DNNspot.Tags.dll</name>
+            </assembly>
+          </assemblies>
+        </component>
+        <component type="File">
+          <files>
+            <basePath>DesktopModules\DNNspot\Tags</basePath>
+            <file>
+              <name>ContainerTags.ascx</name>
+            </file>
+          </files>
+        </component>
+      </components>
+    </package>
+ </packages>
+</dotnetnuke>
