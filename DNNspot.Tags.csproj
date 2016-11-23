@@ -116,7 +116,7 @@
   -->
   <PropertyGroup>
     <ModuleFolder>DNNspot\Tags</ModuleFolder>
-    <DNNDirectory>C:\WEB\DNN8</DNNDirectory>
+    <DNNDirectory>C:\WEB\DNN_74</DNNDirectory>
     <PostBuildEvent>
     </PostBuildEvent>
   </PropertyGroup>
