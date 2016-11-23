@@ -1,6 +1,6 @@
 ﻿<dotnetnuke type="Package" version="5.0">
  <packages>
-    <package name="DNNspot.ContainerTags" type="SkinObject" version="0.0.1">
+    <package name="DNNspot.ContainerTags" type="SkinObject" version="0.0.2">
       <friendlyName>DNNspot CONTAINERTAGS SkinObject</friendlyName>
       <description>
         <![CDATA[
